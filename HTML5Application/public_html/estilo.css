@@ -1,0 +1,36 @@
+body {
+    background: #999;
+}
+#menu {
+    width:700px;
+    height:100%;
+    margin:auto;
+    position:absolute;
+}
+#menu ul {
+    list-style:none;
+    font-size:1.125em;
+    font-family:"Tahoma";
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+}
+#menu ul li a, #menu ul li span {
+    width:100px;
+    padding:10px 20px;
+    height:18px;
+    background:red;
+    text-decoration:none;
+    overflow:hidden;
+    text-align:center;
+}
+#menu ul li span {
+    display:block;
+    cursor:pointer;
+}
+#menu ul li a {
+    background:url("images/Degrade_img.jpg") repeat-x left bottom;
+    color:#000;
+    height:10px;
+    display:none;
+}
